@@ -1,0 +1,27 @@
+body{
+	background-color: #ffffff
+}
+h4 {
+	font-family: "Arial", SanSerif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #39322e;
+	margin-top:25px;
+	margin-left:50px;
+	display:inline;
+    text-align: right;
+}
+
+p{
+	font-family: "Arial", SanSerif;
+	color: #39322e;
+	margin-left: 25px;
+	font-weight: 700;
+	line-height: 150%;
+	font-size: 16px;
+}
+
+#important {	
+	font-size: 20px;
+	color: red;
+}
