@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,300);
+
+body {
+	background-color: #f6f6f6;
+	font-size: 16px
+}
+#wrapper {
+	margin: 0 auto;	
+	max-width: 1300px;
+	background-color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+/*Nav code*/
+
+header {
+	padding-bottom: 1em;
+}
+
+nav {
+	margin-right: 2em;
+	list-style: none;
+}
+nav a{
+	float: right;
+	font-family: "Gill Sans Nova SemiBold";
+	/*font-weight: "SemiBold";
+*/	font-size: 1.25em;
+	color: #3b404f;
+	padding: 1em .5em;	
+	text-align: right;
+	transition: all .2s ease-in-out;
+
+}
+
+nav a:hover {
+	color: #00bcda;
+	
+}
+
+#logo {
+	float: left;
+	margin-left: 3em;
+	margin-top: 1.5em;
+	width: 10%;
+	max-width: 110px;
+}
+
+#logo img {
+	width: 100%;
+}
+
+#descriptor {
+	float: left;
+	margin: 1.25em 4em;
+}
+
+#name {
+	font-family: "Gill Sans Nova SemiBold";
+	/*font-weight: 700;*/
+	color: #00bcda;
+	font-size: 1.25em;
+	margin-bottom: .3em;
+}
+
+#jobtitle{
+	font-family: "Gill Sans Nova Medium";
+	/*font-weight: 400;*/
+	font-size: 1em;
+	color: #3b404f;
+	line-height: 1.4em;
+	letter-spacing: .025em;
+}
+
+
+label {
+	display: none;
+}
+label img {
+	width: 30px;
+	padding: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#toggle{
+    display:none;
+}
+
+
+/*End of Nav*/
+
+
+/*Project Part*/
+#project_section {
+	text-align: center;
+	margin-top: 3em;
+	}
+
+section img {
+	width: 100%;
+}
+
+.project {
+	width: 28%;	
+	margin: 2%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	transition: all .5s ease;
+	
+}
+
+.title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #3b404f;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+  	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.title h1 {
+	font-size: 2.0em;
+	line-height: 1.2em;
+	letter-spacing: .025em;
+	font-family: "Gill Sans Nova SemiBold";
+	/*font-weight: 700;*/
+	text-align: left;
+	position: relative;
+	padding: .5em;
+	left: -50%;
+	opacity: 0;
+	-webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.title p {
+	font-size: 1.25em;
+	line-height: 1.4em;
+	font-family: "Gill Sans Nova Book";
+	/*font-weight: 400;*/
+	text-align: left;
+	position: relative;
+	padding-left: .8em;
+	padding-top: .05em;
+	left: -60%;
+	opacity: 0;
+	-webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+	transition: all .5s ease;
+
+}
+
+.project:hover .title {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.project:hover .title h1,
+.project:hover .title p{
+	left:0;
+  	opacity: 1;
+}
+
+footer {
+	clear: both;
+	background-color: #3b404f;
+	padding: .75em;
+	margin-top: 4em;
+	text-align: center;
+}
+
+footer a img {
+	width: 2.5em;
+	margin: .3125em;
+	display:inline-block;
+	padding: 0 .5em;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+  	-moz-transition: all .1s ease-in-out;
+  	-o-transition: all .1s ease-in-out;
+
+	/*padding: .5em*/
+}
+
+footer a img:hover {
+	width: 2.75em;
+	margin: .125em;
+}
+
+/*Media Queries*/
+
+
+
+
+@media screen and (max-width: 1300px) {
+	
+	body{
+		font-size: 12px;
+	} 
+
+	#wrapper {
+		max-width: 1100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body{
+		font-size: 12px;
+	} 
+
+	label{
+        display:block;
+        text-align:right; 
+    }
+    nav {
+    	display: none;
+    }
+
+    nav a {
+    	display: block;
+    	float: none;
+    	text-align: center;
+    }
+
+	#intro p {
+		padding: .75em 1.25em;
+		font-size: 2em;
+	}
+
+    #toggle:checked + nav{
+        display:block;
+    }
+
+	.project {
+		display: block;
+		width: 90%;
+		margin: .5 auto;
+	}
+
+}
+

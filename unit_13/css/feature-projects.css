@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700,600);
+
+body {
+	background-color: #f6f6f6;
+	font-size: 16px
+}
+
+.feature-project h1 {
+	clear: both;
+	font-family: "Gill Sans Nova SemiBold";
+	font-size: 3em;
+/*	font-weight: 700;*/
+	width: 70%;
+	line-height: 1.2em;
+	color: #00bcda;
+	margin: 3em auto 0;
+}
+
+.feature-project h3 {
+	clear: both;
+	font-family: "Gill Sans Nova Book";
+	font-size: 1.5em;
+/*	font-weight: 400;*/
+	width: 70%;
+	line-height: 1.2em;
+	color: #3b404f;
+	margin: 0.1em auto;
+}
+
+
+.feature-project p {
+	font-family: "Gill Sans Nova Book";
+	font-size: 1.2em;
+	font-weight: 400;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto 5em;
+}
+
+section img,
+section video {
+	width: 65%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5em 0;
+}
+
+#ipadimage {
+	width: 40%;
+}
+
+#project_logo {
+	width: 50%;
+	padding-bottom: 10em;
+
+}
+
+
+
+/*#logo {
+	position: fixed;
+	z-index: 10;
+}*/

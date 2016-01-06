@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700,600);
+
+.major_content {
+	min-height: 70vh;
+}
+
+.major_content p, li {
+	font-family: "Gill Sans Nova Book";
+	font-size: 1.2em;
+	font-weight: 400;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto 1em;
+}
