@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700,600);
+
+.major_content {
+	min-height: 70vh;
+	margin-top: 3em;
+	
+}
+
+.major_content p, li{
+	font-family: "Gill Sans Nova Book";
+	font-size: 1.2em;
+	font-weight: 400;
+	width: 70%;
+	line-height: 1.6em;
+	color: #3b404f;
+	margin: 1em auto .5em;
+}
+
+.major_content li {
+	list-style-type: square;
+	list-style-position: inside;
+	color: #00bcda;
+	padding-left: 1.5em;
+}
+
+.major_content li span {
+	color: #3b404f !important;
+}
+
+#boldintro {
+	font-family: "Gill Sans Nova Medium";
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+#newprojects {
+	/*font-family: "Gill Sans Nova Medium";*/
+	/*font-size: 1.6em;*/
+	/*padding-right: 10em;*/
+	width: 50%;
+	margin:1em 35% .5em 15%;
+}
+
+.major_content a {
+	color: #3b404f;
+}
+
+.major_content a:hover{
+	color: #00bcda;
+	}
+
+td {
+	font-family: "Gill Sans Nova Book";
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #3b404f;
+	padding: .5em 0.5em .5em 0em;
+}
+
+table { 
+	margin:1em 35% .5em 15%;
+}
+
+.bold {
+	font-family: "Gill Sans Nova SemiBold"
+}
+
+
